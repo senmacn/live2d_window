@@ -1,12 +1,11 @@
 {
-  "name": "vite-electron-builder",
-  "description": "Secure boilerplate for Electron app based on Vite",
-  "version": "1.0.2",
+  "name": "live2d_window",
+  "description": "live2d base on electron",
+  "version": "1.0.0",
   "private": true,
   "author": {
-    "email": "kozackunisoft@gmail.com",
-    "name": "Alex Kozack",
-    "url": "https://kozack.me"
+    "email": "chenyiyijin@gmail.com",
+    "name": "chenyiyijinchen"
   },
   "main": "packages/main/dist/index.cjs",
   "scripts": {
@@ -33,6 +32,8 @@
     "@types/node": "18.15.11",
     "@typescript-eslint/eslint-plugin": "5.57.0",
     "@vitejs/plugin-vue": "4.1.0",
+    "@vue/runtime-core": "^3.2.47",
+    "@vue/shared": "^3.2.47",
     "@vue/test-utils": "2.3.2",
     "cross-env": "7.0.3",
     "electron": "23.2.1",
@@ -40,7 +41,8 @@
     "eslint": "8.37.0",
     "eslint-plugin-vue": "9.10.0",
     "happy-dom": "8.9.0",
-    "nano-staged": "0.8.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
     "playwright": "1.32.1",
     "simple-git-hooks": "2.8.1",
     "typescript": "5.0.3",

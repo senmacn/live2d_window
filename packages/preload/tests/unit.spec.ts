@@ -1,6 +1,6 @@
-import {createHash} from 'crypto';
-import {expect, test} from 'vitest';
-import {sha256sum, versions} from '../src';
+import { createHash } from 'crypto';
+import { expect, test } from 'vitest';
+import { sha256sum, versions } from '../src';
 
 test('versions', async () => {
   expect(versions).toBe(process.versions);
